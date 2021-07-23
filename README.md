@@ -1,0 +1,1 @@
+Image to text based on tesseract works on javascript
