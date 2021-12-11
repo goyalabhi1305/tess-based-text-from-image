@@ -12,10 +12,15 @@
     "image",
     "javascript",
     "ocr",
-     "text from image", 
-     "OCR image",
-     "nodejs ocr"
+    "text from image",
+    "OCR image",
+    "nodejs ocr"
   ],
+  "homepage": "https://github.com/goyalabhi1305/tess-based-text-from-image#readme",
+  "bugs": {
+    "url": "https://github.com/goyalabhi1305/tess-based-text-from-image/issues",
+    "email": "goyalabhi1305@gmail.com"
+  },
   "author": "goyalabhi1305",
   "license": "ISC",
   "dependencies": {
