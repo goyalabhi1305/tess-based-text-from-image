@@ -9,13 +9,16 @@ npm install --save text-from-image
 ```
 
 ## Usage
+This gives a promise  which can be used further for various uses
 
 ```
 const ReadText = require('text-from-image')
 
-const text  = ReadText('image.jpg',2,3)
-
-console.log(text)
+ReadText('./image.png').then(text => {
+    console.log(text);
+}).catch(err => {
+    console.log(err);
+})
 ```
 
 ## Please take care
@@ -25,5 +28,7 @@ console.log(text)
 - You can use Sharp or other image processing library to modify image before sending it to the function
 
 ## Development /Issues
+
+For any issues found please create a pull request
 
 If you're interested in developing it please follow <a href="https://github.com/goyalabhi1305/tess-based-text-from-image">GitHub repo.</a>

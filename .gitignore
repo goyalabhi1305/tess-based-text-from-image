@@ -1,3 +1,5 @@
 node_modules/
 eng.traineddata
 osd.traineddata
+test.js
+ogcover.png
