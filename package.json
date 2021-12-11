@@ -1,6 +1,6 @@
 {
   "name": "text-from-image",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "This helps to extract text from images, very easily using tesseract engine",
   "main": "index.js",
   "scripts": {
@@ -12,10 +12,15 @@
     "image",
     "javascript",
     "ocr",
-     "text from image", 
-     "OCR image",
-     "nodejs ocr"
+    "text from image",
+    "OCR image",
+    "nodejs ocr"
   ],
+  "homepage": "https://github.com/goyalabhi1305/tess-based-text-from-image#readme",
+  "bugs": {
+    "url": "https://github.com/goyalabhi1305/tess-based-text-from-image/issues",
+    "email": "goyalabhi1305@gmail.com"
+  },
   "author": "goyalabhi1305",
   "license": "ISC",
   "dependencies": {
