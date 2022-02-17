@@ -28,7 +28,7 @@ const ReadText = (imgfile, oem, psm) => {
                                 // console.log(text)
                                 resolve(text)
                             }).finally(() => {
-                                worker.terminate()
+                                
                             })
                         })
                     });
