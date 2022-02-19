@@ -1,10 +1,5 @@
 const { createWorker } = require('tesseract.js');
 
-const worker = createWorker({
-    //   logger: m => console.log(m)
-});
-
-
 // const trained_data = 'eng+hin'
 const ReadText = (imgfile, oem, psm) => {
 
@@ -13,7 +8,9 @@ const ReadText = (imgfile, oem, psm) => {
 
     try {
         return new Promise((resolve, reject) => {
-
+            const worker = createWorker({
+                //   logger: m => console.log(m)
+            });
             worker.load().then(() => {
                 worker.loadLanguage('eng+osd').then(() => {
                     worker.initialize('eng+osd').then(() => {
