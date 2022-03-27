@@ -1,3 +1,5 @@
+ [![npm](https://img.shields.io/npm/dt/text-from-image)](https://www.npmjs.com/package/text-from-image)
+ 
 # Text from Image
 
 This package helps you extract text from images. This works using the tesseract ocr engine.
